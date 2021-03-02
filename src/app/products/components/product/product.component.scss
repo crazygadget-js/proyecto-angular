@@ -1,0 +1,14 @@
+:host{ 
+    margin: 2px;
+    border: 1px solid green; 
+    border-radius: 5px; 
+    display: flex;  
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+
+}
+img{
+    max-width: 70%; 
+    height: 250px;
+}

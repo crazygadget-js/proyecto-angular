@@ -1,14 +1,13 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-} 
-
 .product-List{
     display: grid;
     grid-template-columns:repeat(1, 1fr);
 } 
 @media(min-width:425px){
+    .product-List{
+        grid-template-columns: repeat(2,1fr);
+    }
+} 
+@media(min-width:768px){
     .product-List{
         grid-template-columns: repeat(3,1fr);
     }

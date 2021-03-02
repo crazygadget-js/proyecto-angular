@@ -1,0 +1,8 @@
+<h3>{{product.title }}</h3> 
+<img [src]="product.image">  
+<p>{{product.description }}</p>
+<p>{{product.price}}</p> 
+<button mat-raised-button >Agregar Al Carrito</button>
+
+  
+<a mat-flat-button color="primary" [routerLink]="['/products',product.id]">Ver Detalles</a>
